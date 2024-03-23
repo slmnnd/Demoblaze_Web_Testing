@@ -1,10 +1,12 @@
 
-# 👋Tentang Project
+# 👋 About The Project
+This Mini Project was created to fulfill the assessment task of applying for a Software Quality Assurance position at PT. Formulatrix Indonesia.
 
+## 🔗 Link Documents
 
-## 🔗 Links
+**SIT & Bug Reports :** https://docs.google.com/spreadsheets/d/1rmHhJkwLOTWllf1Z2Ju32oJCSjlDzrFsR5eiv5JDU2M/edit?usp=sharing
 
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dicky-farhan7/) 
+**Workflow Analysis :** https://docs.google.com/document/d/1uaHfvjQ8TOsEnvqtyBOpxOuoUIpmRxknnUCmsNTYtF8/edit?usp=sharing
 
 
 ## ⚒️ Tech Stack
@@ -14,4 +16,3 @@
 **Framework:** Selenium
 
 **Tools:** Cucumber, TestNG
-
