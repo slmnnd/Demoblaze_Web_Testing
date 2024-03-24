@@ -23,8 +23,8 @@ public class ProductListTest {
         extentTest = formulatrix.Hooks.extentTest;
     }
 
-    @Given("User access link web")
-    public void user_access_link_web() {
+    @Given("User access link web Demoblaze")
+    public void user_access_link_web_demoblaze() {
         delay(5);
         driver.get(Constant.URL);
         extentTest.log(LogStatus.PASS, "User access link web 'https://www.demoblaze.com/index.html'");

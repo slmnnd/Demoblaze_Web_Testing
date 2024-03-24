@@ -30,8 +30,8 @@ public class NavigationBarTest {
         NavigationBar.clickMenuHome();
         extentTest.log(LogStatus.PASS, "User clicks Home in the navbar");
     }
-    @When("Scroll down")
-    public void scroll_down(){
+    @When("Scroll to down")
+    public void scroll_to_down(){
         scrollByPixels(driver,0,400);
         extentTest.log(LogStatus.PASS, "Scroll down");
     }
@@ -76,10 +76,10 @@ public class NavigationBarTest {
         extentTest.log(LogStatus.PASS, "User successfully send message in the Contact menu");
     }
 
-    @Given("User clicks Contact in the navbar")
-    public void user_clicks_contact_in_the_navbar(){
+    @Given("User clicks Contact menu")
+    public void user_clicks_contact_menu(){
         NavigationBar.clickMenuContact();
-        extentTest.log(LogStatus.PASS, "User clicks Contact in the navbar");
+        extentTest.log(LogStatus.PASS, "User clicks Contact menu");
     }
     @When("User inputs contact email with 'aishazelnut'")
     public void user_inputs_contact_email_without_com(){

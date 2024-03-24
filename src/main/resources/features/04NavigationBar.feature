@@ -2,7 +2,7 @@ Feature: Navigation Bar
   #positive
   Scenario: User access Home Page properly
     Given User clicks Home in the navbar
-    When Scroll down
+    When Scroll to down
     Then User successfully access Home Page and views the displayed products
 
     #positive
@@ -17,7 +17,7 @@ Feature: Navigation Bar
 
     #negative
   Scenario: User is using menu Contact without @ in contact email
-    Given User clicks Contact in the navbar
+    Given User clicks Contact menu
     When User inputs contact email with 'aishazelnut'
     And User inputs contact name with 'Aisha'
     And User inputs message with 'hehehehehe'
@@ -26,7 +26,7 @@ Feature: Navigation Bar
 
     #negative
   Scenario: User is using menu Contact with inputs full numbers in contact name
-    Given User clicks Contact in the navbar
+    Given User clicks Contact menu
     When User inputs contact email with 'aishazelnut@gmail.com'
     And User inputs contact name with '123412341234'
     And User inputs message with 'hehehehehe'
@@ -35,7 +35,7 @@ Feature: Navigation Bar
 
     #negative
   Scenario: User is using menu Contact without inputs anything
-    Given User clicks Contact in the navbar
+    Given User clicks Contact menu
     When User clicks Send Message button
     Then User can't send message in the Contact menu
     #negative
