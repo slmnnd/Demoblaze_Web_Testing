@@ -1,4 +1,4 @@
-Feature : Navigation Bar
+Feature: Navigation Bar
   #positive
   Scenario: User access Home Page properly
     Given User clicks Home in the navbar
